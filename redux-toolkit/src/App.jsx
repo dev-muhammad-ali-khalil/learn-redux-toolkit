@@ -1,10 +1,13 @@
 import React from 'react'
+import Counter from './components/Counter'
 
 const App = () => {
+
   return (
-    <div>
-      
-    </div>
+    <>
+      <h1>Redux Toolkit</h1>
+      <Counter />
+    </>
   )
 }
 
